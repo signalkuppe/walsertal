@@ -859,6 +859,7 @@ nav {
 .select-black .collapse:after, 
 .select-white .collapse:after {background-image: url('../images/dropdown-1.png');}
 .collapse.input:after {background-image: url('../images/calendar.png'); width: 17px; height: 19px; top: 13px; right: 13px;}
+.collapse.collapse-brown.input:after {background-image: url('../images/calendar-white.png'); width: 17px; height: 19px; top: 13px; right: 13px;}
 .collapse > select {
     background: rgba(0,0,0,0);
     border-style: solid;
