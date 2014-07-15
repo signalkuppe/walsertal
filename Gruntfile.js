@@ -16,7 +16,7 @@ module.exports = function(grunt) {
               },
       sitemap:
       {
-                    urlPrefix: 'http://www.residence-walsertal.com',
+                    urlPrefix: 'http://www.residence-walsertal.com/',
                     changefreq: 'daily',
                     priority: 1
       },
@@ -149,6 +149,16 @@ module.exports = function(grunt) {
         },
         ],
       }
+    },
+    imagemin: {                          // Task
+      dynamic: {                         // Another target
+        files: [{
+          expand: true,                  // Enable dynamic expansion
+          cwd: 'dist/',                   // Src matches are relative to this path
+          src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+          dest: 'dist/'                  // Destination path prefix
+        }]
+      }
     }
   });
 
@@ -159,7 +169,7 @@ module.exports = function(grunt) {
   grunt.registerTask('uglify', ['uglify']);
   grunt.registerTask('cssmin', ['cssmin']);
   grunt.registerTask('processhtml', ['processhtml']);
-  grunt.registerTask('deploy', ['html-builder','uglify','cssmin','processhtml','s3']);
+  grunt.registerTask('deploy', ['html-builder','uglify','cssmin','processhtml','imagemin','s3']);
   
   // contrib
   grunt.loadNpmTasks('grunt-contrib-clean');
@@ -171,5 +181,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-processhtml');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
 };

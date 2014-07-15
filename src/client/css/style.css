@@ -669,6 +669,7 @@ nav {
 
 .slide-mobile {
     display: none;
+    height: auto!important;
 }
 
 .content-slide {
@@ -1253,7 +1254,7 @@ select option.option-test:hover {background-color: #F00;}
 .md-home .title-checkroom:after {background-color: transparent;}
 .md-home .md-booking .label-control {color: #FFF;}
 .md-home .md-booking .btn {
-    padding: 0 39px; 
+    padding: 0 10px; 
     background-color: #FFF;
 }
 .md-home .input-control, 

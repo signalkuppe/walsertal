@@ -110,5 +110,41 @@
 	"Scarica pdf":
 	{
 		"en":"Download pdf"
+	},
+	"La tua vacanza continua con":
+	{
+		"en": "You may also be interested in"
+	},
+	"Ti aspettiamo alla Betta!":
+	{
+		"en": "Se you at Colle Bettaforca!"
+	},
+	"Arrivo":
+	{
+		"en": "Arrival"
+	},
+	"Partenza":
+	{
+		"en": "Departure"
+	},
+	"Adulti":
+	{
+		"en": "Adults"
+	},
+	"Bambini":
+	{
+		"en": "Bambini"
+	},
+	"La tua email":
+	{
+		"en": "Your email"
+	},
+	"Messaggio":
+	{
+		"en": "Message"
+	},
+	"Invia":
+	{
+		"en": "SEnd"
 	}
 }

@@ -404,6 +404,13 @@
 	/* Contact Page */
 	.address-map, .address-info {float: none; width: 100%;height: 189px;}
 
+	/* Slider HOME */
+	.md-slide-wrapper,
+	.md-slide li,
+	.md-slide li img {
+		height: 480px!important;
+		width:320px!important;
+	}
 
 }
 
