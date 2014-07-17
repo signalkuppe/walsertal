@@ -79,7 +79,7 @@ module.exports = function(grunt) {
       dev: {
         // These options override the defaults
         options: {
-          maxOperations: 20
+          maxOperations: 1
         },
         // Files to be uploaded.
         sync: [

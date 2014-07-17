@@ -648,6 +648,7 @@ nav {
     position: relative;
     height: 650px;
     overflow: hidden;
+    background: #242424;
 }
 .md-slide li img {
     background-position: center center;
