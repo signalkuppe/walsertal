@@ -131,10 +131,6 @@
 	{
 		"en": "Adults"
 	},
-	"Bambini":
-	{
-		"en": "Bambini"
-	},
 	"La tua email":
 	{
 		"en": "Your email"
@@ -145,6 +141,6 @@
 	},
 	"Invia":
 	{
-		"en": "SEnd"
+		"en": "Send"
 	}
 }
