@@ -12,6 +12,8 @@ jQuery(document).ready(function($){
 		onSliderLoad: function(){
 			$('.bx-prev').html('<i class="icon icon-previous"></i>'); 
 			$('.bx-next').html('<i class="icon icon-next"></i>');
+			$('.home-content').show();
+			console.log('slider','loaded')
 		}
 	});
 

@@ -82,12 +82,20 @@ module.exports = function(grunt) {
           maxOperations: 1
         },
         // Files to be uploaded.
-        sync: [
+        upload: [
           {
             src: 'dist/**/*.*',
             dest: '/',
             rel: 'dist',
-            options: { gzip: true, verify: true}
+            options: {
+              gzip: true,
+              verify: true,
+              headers: {
+                // Two Year cache policy (1000 * 60 * 60 * 24 * 730)
+                "Cache-Control": "max-age=630720000, public",
+                "Expires": new Date(Date.now() + 63072000000).toUTCString()
+              }
+            }
           }
         ]
       }
@@ -96,8 +104,7 @@ module.exports = function(grunt) {
       my_target:
       {
         options: {
-          //compress: true,
-          //beautify: false
+          compress: true
         },
         files:
         {
@@ -159,6 +166,22 @@ module.exports = function(grunt) {
           dest: 'dist/'                  // Destination path prefix
         }]
       }
+    },
+    invalidate_cloudfront: {
+      options: {
+        key: '<%= aws.key %>',
+        secret: '<%= aws.secret %>',
+        distribution: 'E2WMS7SFITMZWQ'
+      },
+      production: {
+        files: [{
+          expand: true,
+          cwd: './dist',
+          src: ['**/*.html','css/app.min.css','js/app.min.js'],
+          filter: 'isFile',
+          dest: ''
+        }]
+      }
     }
   });
 
@@ -169,7 +192,8 @@ module.exports = function(grunt) {
   grunt.registerTask('uglify', ['uglify']);
   grunt.registerTask('cssmin', ['cssmin']);
   grunt.registerTask('processhtml', ['processhtml']);
-  grunt.registerTask('deploy', ['html-builder','uglify','cssmin','processhtml','imagemin','s3']);
+  grunt.registerTask('invalidate', ['invalidate_cloudfront']);
+  grunt.registerTask('deploy', ['html-builder','uglify','cssmin','processhtml','imagemin','s3','invalidate']);
   
   // contrib
   grunt.loadNpmTasks('grunt-contrib-clean');
@@ -182,5 +206,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-processhtml');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-invalidate-cloudfront');
 
 };

@@ -2,7 +2,6 @@ $(document).ready(function()
 {
 	if($('#prenotazioni').length)
 	{
-		console.log('a')
 		var $form= $('#prenotazioni');
 
 		$form.submit(function (e)
