@@ -142,5 +142,21 @@
 	"Invia":
 	{
 		"en": "Send"
+	},
+	"Mensile":
+	{
+		"en": "Month"
+	},
+	"Luglio":
+	{
+		"en": "July"
+	},
+	"Agosto":
+	{
+		"en": "August"
+	},
+	"Scarica il listino":
+	{
+		"en": "Download the price list"
 	}
 }
