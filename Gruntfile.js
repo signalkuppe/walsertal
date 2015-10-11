@@ -114,6 +114,7 @@ module.exports = function(grunt) {
             'src/client/js/jquery-1.9.1.js',
             'src/client/js/jquery-ui-1.10.3.js',
             'src/client/js/jquery.bxslider.min.js',
+            'src/client/js/jquery.magnific-popup.min.js',
             'src/client/js/smoothscroll.js',
             'src/client/js/classie.js',
             'src/client/js/mlpushmenu.js',
