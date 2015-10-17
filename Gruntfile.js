@@ -88,7 +88,6 @@ module.exports = function(grunt) {
             dest: '/',
             rel: 'dist',
             options: {
-              gzip: true,
               verify: true,
               headers: {
                 // Two Year cache policy (1000 * 60 * 60 * 24 * 730)
@@ -104,7 +103,7 @@ module.exports = function(grunt) {
       my_target:
       {
         options: {
-          compress: true
+          compress: {}
         },
         files:
         {
