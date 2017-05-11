@@ -19,7 +19,7 @@ jQuery(document).ready(function($){
 
 	$("#arrival-date, #departure-date").datepicker({});
 
-	$.magnificPopup.open({
+/*	$.magnificPopup.open({
   		items: {
     src: '#pop'
   },
@@ -27,6 +27,6 @@ jQuery(document).ready(function($){
 
   // You may add options here, they're exactly the same as for $.fn.magnificPopup call
   // Note that some settings that rely on click event (like disableOn or midClick) will not work here
-}, 0);
+}, 0);*/
 
 });
