@@ -99,7 +99,7 @@
 	{
 		"en": "Summer"
 	},
-	"Winter": 
+	"Inverno": 
 	{
 		"en": "Winter"
 	},
@@ -158,5 +158,11 @@
 	"Scarica il listino":
 	{
 		"en": "Download the price list"
+	},
+	"Pacchetti estivi": {
+		"en": "Summer promotions"
+	},
+	"Pacchetti": {
+		"en": "Promotions"
 	}
 }

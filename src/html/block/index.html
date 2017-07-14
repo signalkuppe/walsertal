@@ -1,257 +1,267 @@
-
-		
-			
-
-
-			<!-- Slider with Jquery bxslider -->
-			<section class="md-slide-wrapper md-slide-home">
-				<!-- Slide Image-->
-				<ul id="md-slide-fade" class="md-slide clearfix">
-					<li>
-						<img src="/img/slide/slide2.jpg" alt="" class="slide-desktop">
-						<img src="/img/slide/slide2-mobile.jpg" alt="" class="slide-mobile">
-						<img src="/img/slide/slide2-tablet.jpg" alt="" class="slide-tablet">
-						<div class="content-slide">
-							<div class="home-content" style="display:none;">
-								<h2 class="slide-title">
+<!-- Slider with Jquery bxslider -->
+<section class="md-slide-wrapper md-slide-home">
+    <!-- Slide Image-->
+    <ul id="md-slide-fade" class="md-slide clearfix">
+        <li>
+            <img src="/img/slide/slide2.jpg" alt="" class="slide-desktop">
+            <img src="/img/slide/slide2-mobile.jpg" alt="" class="slide-mobile">
+            <img src="/img/slide/slide2-tablet.jpg" alt="" class="slide-tablet">
+            <div class="content-slide">
+                <div class="home-content" style="display:none;">
+                    <h2 class="slide-title">
 									<span data-language="it">La tua vacanza</span>
 									<span data-language="en">Your Holiday</span>
 								</h2>
-								<h3 class="slide-title">
+                    <h3 class="slide-title">
 									<span data-language="it">sul Monte Rosa</span>
 									<span data-language="en">In the Monte Rosa<br/> valley</span>
 								</h3>
-								<div class="dots-line">
-									<span></span>
-									<span></span>
-									<span></span>
-								</div>
-								<p class="slide-description"></p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<img src="/img/slide/slide1.jpg" alt="" class="slide-desktop">
-						<img src="/img/slide/slide1-mobile.jpg" alt="" class="slide-mobile">
-						<img src="/img/slide/slide1-tablet.jpg" alt="" class="slide-tablet">
-						<div class="content-slide">
-							<div class="home-content" style="display:none;">
-								<h2 class="slide-title">
+                    <div class="dots-line">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <p class="slide-description"></p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="/img/slide/slide1.jpg" alt="" class="slide-desktop">
+            <img src="/img/slide/slide1-mobile.jpg" alt="" class="slide-mobile">
+            <img src="/img/slide/slide1-tablet.jpg" alt="" class="slide-tablet">
+            <div class="content-slide">
+                <div class="home-content" style="display:none;">
+                    <h2 class="slide-title">
 									<span data-language="it">Direttamente</span>
 									<span data-language="en">Next to</span>
 								</h2>
-								<h3 class="slide-title">
+                    <h3 class="slide-title">
 									<span data-language="it">sulle piste</span>
 									<span data-language="en">the slopes</span>									
 								</h3>
-							</div>
-						</div>
-					</li>
-					<li>
-						<img src="/img/slide/slide3.jpg" alt="" class="slide-desktop">
-						<img src="/img/slide/slide3-mobile.jpg" alt="" class="slide-mobile">
-						<img src="/img/slide/slide3-tablet.jpg" alt="" class="slide-tablet">
-						<div class="content-slide">
-							<div class="home-content" style="display:none;">
-								<h2 class="slide-title">Relax</h2>
-								<div class="dots-line">
-									<span></span>
-									<span></span>
-									<span></span>
-								</div>
-								<p class="slide-description">
-									<span data-language="it">Sciata tosta? lasciati coccolare dalla nostra sauna</span>
-									<span data-language="en">Tired after ski? try our sauna</span>
-								</p>
-							</div>
-						</div>
-					</li>
-				</ul>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="/img/slide/slide3.jpg" alt="" class="slide-desktop">
+            <img src="/img/slide/slide3-mobile.jpg" alt="" class="slide-mobile">
+            <img src="/img/slide/slide3-tablet.jpg" alt="" class="slide-tablet">
+            <div class="content-slide">
+                <div class="home-content" style="display:none;">
+                    <h2 class="slide-title">Relax</h2>
+                    <div class="dots-line">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <p class="slide-description">
+                        <span data-language="it">Sciata tosta? lasciati coccolare dalla nostra sauna</span>
+                        <span data-language="en">Tired after ski? try our sauna</span>
+                    </p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+<!-- Slider End -->
+<!-- Body -->
+<div class="md-body-wrapper">
+    <div class="md-home">
+        <section class="row check-availability">
+            <div class="container clearfix">
+                <div class="grid_3">
+                    <h2 class="title-checkroom">{{t:'Contattaci'}}</h2>
+                </div>
+                <div class="grid_9">
+                    <section class="md-booking">
+                        <div class="box-booking booking-inline clearfix">
+                            <form id="prenotazioni" action="https://2727betta.wufoo.com/forms/mgnxrmq1d1kut7/#public" novalidate accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post">
+                                <div class="form-group">
+                                    <label class="label-control">{{t:'Arrivo'}}</label>
+                                    <div class="booking-form select-white">
+                                        <label class="collapse input">
+                                            <input type="text" id="arrival-date" name="Field3" class="input-control border-white" />
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="label-control">{{t:'Partenza'}}</label>
+                                    <div class="booking-form select-white">
+                                        <label class="collapse input">
+                                            <input type="text" id="departure-date" name="Field4" class="input-control border-white" />
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group select">
+                                    <label class="label-control">{{t:'Adulti'}}</label>
+                                    <div class="input-group select-white">
+                                        <label class="collapse">
+                                            <select id="adulti" class="form-select" name="Field5">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group select">
+                                    <label class="label-control">{{t:'Bambini'}}</label>
+                                    <div class="input-group select-white">
+                                        <label class="collapse">
+                                            <select class="form-select" id="bambini" name="Field7">
+                                                <option value="0">0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group last">
+                                    <label class="label-control"></label>
+                                    <button type="submit" class="btn btn-large btn-darkbrown" name="saveForm">
+                                        {{t:'Invia'}}
+                                    </button>
+                                </div>
+                                <input type="hidden" id="idstamp" name="idstamp" value="oLDPOIZoLn9Q58knDvmqa3x2VeMVWQTbklm78VUNGcY=" />
+                            </form>
+                        </div>
+                        <!-- /.box-booking -->
+                    </section>
+                    <!-- /.md-booking -->
+                </div>
+            </div>
+            <!-- /.container -->
+        </section>
+        <section class="row md-home-body">
+            <div class="container clearfix">
+                <aside class="grid_3 md-sidebar">
+                    <h2 class="header-sidebar">{{t:'Il Residence'}}</h2>
+                    <div data-language="it">
+                        <p>direttamente sulle piste,<strong>nel cuore del comprensorio sciistico del Monterosa ski</strong> a 3 km oltre il centro di Gressoney-La-Trinité, sorge la nuovissima costruzione del Residence Walsertal.</p>
+                        <br />
+                        <p>La sua posizione è un ottimo punto di soggiorno, sia d’inverno che d’estate. Qui potrete <strong>dimenticare l’auto in garage per tutta la settimana</strong> e tuttavia raggiungere facilmente gli impianti di risalita per indimenticabili sciate. In estate, invece, proprio da qui partono i sentieri per raggiungere le sorgenti del torrente Lys e altre fantastiche <strong>escursioni in quota.</strong></p>
+                        <br />
+                        <p>Il residence, a conduzione familiare, assicura vacanze tranquille all’insegna dello sport e del relax. Nelle immediate vicinanze si trovano: bar, ristoranti tipici.negozio di alimentari e prodotti tipici, lavanderia a gettone, negozio sportivo con noleggio di attrezzature e articoli sportivi. Inoltre a soli 150 mt, biglietterie degli impianti, <strong>scuola sci, campo scuola per principianti e snow park</strong>.</p>
+                    </div>
+                    <div data-language="en">
+                        <p>At the end of the road….<strong>at the foot of the Monte Rosa</strong>, in the heart of the Monterosa Ski area, directly on the ski slopes, 5 km beyond the centre of Gressoney-La-Trinité stands, in a new building, the Walsertal Residence.</p>
+                        <br />
+                        <p>
+                            Thanks to the wonderful location it is a <strong>perfect holiday spot both in winter and in summer</strong>. Here you can leave your car in the garage all the week and walk to the ski lifts for an exciting ski day. Always from here, in the summertime, start the paths for the sources of the river Lys and other wonderful walking tours. The Residence, run by our family, offers quiet holidays for sport and relax.
+                        </p>
+                        <br />
+                        <p>
+                            Close to the Residence there are: bars, typical restaurants, grocer’s shop, sports shops and ski rental . Moreover at only 150 mt, skilift office,ski school and snow park.</p>
+                    </div>
+                    <ul class="list list-check">
+                        <li>8 {{t:'Camere'}}</li>
+                        <li>{{t:'Direttamente sulle piste'}}</li>
+                        <li>After ski</li>
+                        <li>Sauna</li>
+                        <li>{{t:'Palestra'}}</li>
+                        <li>{{t:'Box'}}</li>
+                        <li>{{t:'Ampia carta dei vini'}}</li>
+                        <li>{{t:'Prodotti del territorio'}}</li>
+                    </ul>
+                    <div class="box-quote" data-language="it">
+                        <p>Il Residence ideale per la mia vacanza nella valle. Il meglio? L'After Ski con vini e prodotti locali dopo l'ultima discesa dai Salati!</p>
+                        <a href="#" class="text-link link-direct">Marco, appassionato di snowboard</a>
+                    </div>
+                    <div class="box-quote" data-language="en">
+                        <p>The perfect spot for my holidays. What I like most? The After Ski with local products and wines, after the last slope!</p>
+                        <a href="#" class="text-link link-direct">Marco, snowboard fan</a>
+                    </div>
+                </aside>
+                <!-- /.md-sidebar -->
+                <div class="grid_9 md-primary">
+                    <div class="row">
 
 
+                        <style>
+                        .white-popup {
+                            position: relative;
+                            background: #FFF;
+                            padding: 20px;
+                            width: auto;
+                            max-width: 500px;
+                            margin: 20px auto;
+                            line-height: 1.5;
+                            z-index: 1000000;
+                            font-size: 90%;
+                        }
+                        </style>
+                        <div class="white-popup mfp-hide md-home" id="pop">
+
+                        	<div data-language="it">
+	                            <h2 class="header-sidebar">Promozione Sciare gratis 2017/2018!</h2>
+	                            <strong>dal 9 al 24 dicembre 2017, 
+									dal 6 al 28 gennaio 2018,
+									dal 31 marzo al 15 aprile 2018<br /><br /></strong> 1) Skipass al 50% del prezzo di listino Monterosa Ski per ogni persona prenotata e alloggiata IN MONOLOCALE
+	                            <br />
+	                            <br /> 2) Skipass GRATUITO per ogni persona prenotata e alloggiata in BILOCALE
+
+	                            <ul style="font-size:90%; list-style: disc; margin: 20px; ">
+	                                <li>Il pacchetto Sciare Gratis dovrà essere acquistato con pagamento anticipato e non rimborsabile</li>
+	                                <li>Prenotabile fino a 3 giorni prima della data di arrivo</li>
+	                                <li>All'atto della prenotazione è FONDAMENTALE l'invio di tutti i nominativi dei soggiornanti aventi necessità di skipass con i seguenti dati: NOME, COGNOME, DATA DI NASCITA, SNOWCARE SI OPPURE SNOWCARE NO, SKIPASS A PARTIRE DAL...........AL.............COMPRESO</li>
+	                                <li>Gli skipass emessi non saranno modificabili</li>
+	                                <li>Minimum stay 3 notti feriale e 4 notti festivo</li>
+	                                <li>Durata massima dello skipass pari al numero di notti di soggiorno</li>
+	                                <li>L’assicurazione snowcare € 2,00/persona/giorno (specificare se necessaria o NON necessaria al'atto della prenotazione) Dal 9 al 15 aprile 2018 sarà aperta l’area della dorsale da Frachey ad Alagna, no Champoluc e no Punta Jolanda</li>
+	                            </ul>
+	                            Per preventivi e informazioni scrivere a
+	                            <br />
+	                            <br /><a href="mailto:info@walsertal.it" class="btn btn-small btn-border btn-border-brown">info@walsertal.it</a></p>
+                            </div>
+                            <div data-language="en">
+	                            <h2 class="header-sidebar">Free skipass 2017/2018 - NOT REFUNDABLE</h2>
+	                            <strong>Valid from Dec. 9th to Dec.24th 2017, 
+									 from Jan., 6th to Jan., 28th 2018,
+									from Mar., 31st to Apr., 15th 2018<br /><br /></strong> 1) IN STUDIO: 50% off Monterosa Ski skipasses
+	                            <br />
+	                            <br /> 2) IN 2-ROOMS FLAT: Free skipasses
+
+	                            <ul style="font-size:90%; list-style: disc; margin: 20px; ">
+	                                <li>Free skipass package is a pre-paid and not refundable promotion.</li>
+	                                <li>Bookings up to 3 days prior to arrival.</li>
+	                                <li>Upon reservation is MANDATORY to send us an email with full details:
+FIRSTNAME, LASTNAME, DATE OF BIRTH, SNOWCARE YES OR SNOWCARE NO, SKIPASS FROM..........TILL.............INCLUDED</li>
+	                                <li>Issuing of skipasses upon settlement.</li>
+	                                <li>No corrections allowed on skipass if issued.</li>
+	                                <li>Minimum stay 3 nights during week-days and 4 nights if week-end included</li>
+	                                <li>Skipass-days for a maximum equal to nights-stay.</li>
+	                                <li>Snowcare € 2,00/person/day 
+From April, 9th to April, 15th 2018 from Frachey to Alagna will be open, Champoluc and Punta Jolanda closed.</li>
+	                            </ul>
+	                            For requests or information please contact
+	                            <br />
+	                            <br /><a href="mailto:info@walsertal.it" class="btn btn-small btn-border btn-border-brown">info@walsertal.it</a></p>                            	
+                            </div>
+                        </div>
 
 
-				
-			</section>
-			<!-- Slider End -->
+                    </div>
 
-
-
-			<!-- Body -->
-			<div class="md-body-wrapper">
-				<div class="md-home">
-					<section class="row check-availability">
-						<div class="container clearfix">
-							<div class="grid_3">
-								<h2 class="title-checkroom">{{t:'Contattaci'}}</h2>
-							</div>
-							<div class="grid_9">
-							<section class="md-booking">
-									<div class="box-booking booking-inline clearfix">
-										<form id="prenotazioni" action="https://2727betta.wufoo.com/forms/mgnxrmq1d1kut7/#public" novalidate accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post">
-											<div class="form-group">
-												<label class="label-control">{{t:'Arrivo'}}</label>
-												<div class="booking-form select-white">
-													<label class="collapse input">
-														<input type="text" id="arrival-date" name="Field3" class="input-control border-white"/>
-													</label>
-												</div>
-											</div>
-											<div class="form-group">
-												<label class="label-control">{{t:'Partenza'}}</label>
-												<div class="booking-form select-white">
-													<label class="collapse input">
-														<input type="text" id="departure-date" name="Field4" class="input-control border-white"/>
-													</label>
-												</div>
-											</div>
-											<div class="form-group select">
-												<label class="label-control">{{t:'Adulti'}}</label>
-												<div class="input-group select-white">
-													<label class="collapse">
-														<select id="adulti" class="form-select" name="Field5">
-															<option value="1">1</option>
-															<option value="2">2</option>
-															<option value="3">3</option>
-															<option value="4">4</option>
-															<option value="5">5</option>
-														</select>
-													</label>
-												</div>
-											</div>
-											<div class="form-group select">
-												<label class="label-control">{{t:'Bambini'}}</label>
-												<div class="input-group select-white">
-													<label class="collapse">
-														<select class="form-select" id="bambini" name="Field7">
-															<option value="0">0</option>
-															<option value="1">1</option>
-															<option value="2">2</option>
-															<option value="3">3</option>
-															<option value="4">4</option>
-															<option value="5">5</option>
-														</select>
-													</label>
-												</div>
-											</div>
-											<div class="form-group last">
-												<label class="label-control"></label>
-												<button type="submit" class="btn btn-large btn-darkbrown" name="saveForm">
-													{{t:'Invia'}}
-												</button>
-											</div>
-											<input type="hidden" id="idstamp" name="idstamp" value="oLDPOIZoLn9Q58knDvmqa3x2VeMVWQTbklm78VUNGcY=" />
-										</form>
-									</div><!-- /.box-booking -->
-								</section><!-- /.md-booking -->						
-							</div>
-						</div><!-- /.container -->
-					</section>
-					<section class="row md-home-body">
-
-						<div class="container clearfix">
-							<aside class="grid_3 md-sidebar">
-								<h2 class="header-sidebar">{{t:'Il Residence'}}</h2>
-								<div data-language="it">
-									<p>direttamente sulle piste,<strong>nel cuore del comprensorio sciistico del Monterosa ski</strong> a 3 km oltre il centro di Gressoney-La-Trinité, sorge la nuovissima costruzione del Residence Walsertal.</p>
-									<br />
-									<p>La sua posizione è un ottimo punto di soggiorno, sia d’inverno che d’estate. Qui potrete <strong>dimenticare l’auto in garage per tutta la settimana</strong> e tuttavia raggiungere facilmente gli impianti di risalita per indimenticabili sciate.
-									In estate, invece, proprio da qui partono i sentieri per raggiungere le sorgenti del torrente Lys e altre fantastiche <strong>escursioni in quota.</strong></p><br />
-									<p>Il residence, a conduzione familiare, assicura vacanze tranquille all’insegna dello sport e del relax. Nelle immediate vicinanze si trovano: bar, ristoranti tipici.negozio di alimentari e prodotti tipici, lavanderia a gettone, negozio sportivo con noleggio di attrezzature e articoli sportivi. Inoltre a soli 150 mt, biglietterie degli impianti, <strong>scuola sci, campo scuola per principianti e snow park</strong>.</p>
-								</div>
-								<div data-language="en">
-									<p>At the end of the road….<strong>at the foot of the Monte Rosa</strong>, in the heart of the Monterosa Ski area, directly on the ski slopes, 5 km beyond the centre of Gressoney-La-Trinité stands, in a new building, the Walsertal Residence.</p><br />
-									<p>
-										Thanks to the wonderful location it is a <strong>perfect holiday spot both in winter and in summer</strong>. Here you can leave your car in the garage all the week and walk to the ski lifts for an exciting ski day. Always from here, in the summertime, start the paths for the sources of the river Lys and other wonderful walking tours.
-The Residence, run by our family, offers quiet holidays for sport and relax.
-									</p>
-									<br />
-									<p>
-Close to the Residence there are: bars, typical restaurants, grocer’s shop, sports shops and ski rental .
-Moreover at only 150 mt, skilift office,ski school and snow park.</p>
-								</div>
-								<ul class="list list-check">
-									<li>8 {{t:'Camere'}}</li>
-									<li>{{t:'Direttamente sulle piste'}}</li>
-									<li>After ski</li>
-									<li>Sauna</li>
-									<li>{{t:'Palestra'}}</li>
-									<li>{{t:'Box'}}</li>
-									<li>{{t:'Ampia carta dei vini'}}</li>
-									<li>{{t:'Prodotti del territorio'}}</li>
-								</ul>
-								<div class="box-quote" data-language="it">
-									
-										<p>Il Residence ideale per la mia vacanza nella valle. Il meglio? L'After Ski con vini e prodotti locali dopo l'ultima discesa dai Salati!</p>
-									    <a href="#" class="text-link link-direct">Marco, appassionato di snowboard</a>										
-																	
-		
-								</div>
-								<div class="box-quote" data-language="en">
-									
-										<p>The perfect spot for my holidays. What I like most? The After Ski with local products and wines, after the last slope!</p>
-									    <a href="#" class="text-link link-direct">Marco, snowboard fan</a>										
-		
-								</div>
-							</aside><!-- /.md-sidebar -->
-							<div class="grid_9 md-primary">
-
-
-							<div class="row">
-
-								<style>.white-popup {
-  position: relative;
-  background: #FFF;
-  padding: 20px;
-  width: auto;
-  max-width: 500px;
-  margin: 20px auto;
-  line-height:1.5;
-  z-index: 1000000;
-  font-size:90%;
-}</style>
-							<div class="white-popup mfp-hide md-home" id="pop">
-
-							<div data-language="it">
-							<h2 class="header-sidebar">Skipass gratuito!</h2>
-								Dal 10 al 25 dicembre 2016
-<strong>Dal 7 al 29 gennaio 2017
-Dal 25 marzo 2017 a fine stagione</strong>
-Skipass gratuito per la durata del soggiorno
-Minimo 4 notti<br />
-
-Prenotazioni e saldo anticipato almeno 20 gg prima dell'arrivo.<br />
-
-Snowcare adulti €2.00 p.p.p.g. extra da richiedere alla conferma
-Snowcare fino agli 8 anni €1.50 p.p.p.g. extra da richiedere alla conferma
-<br /><br />
-<h4>Inoltre...</h4>
-DAL 17 al 30 APRILE 2017
-50% DI SCONTO SU TUTTI I SOGGIORNI</br>
-Per prenotazioni e informazioni scrivere a <br /><br /><a href="mailto:info@walsertal.it" class="btn btn-small btn-border btn-border-brown">info@walsertal.it</a>
-							</div>
-<div data-language="en">
-	<h2 class="header-sidebar">Free skipass!</h2>
-	<strong>10-25/12/2016
-7-29/1/2017
-25/3 till end of Winter season</strong>
-Free skipass during your entire stay Minimum stay: 4 nights
-Bookings and settlement not later then 20 days prior to arrival.<br />
-
-Snowcare insurance on request upon booking:
-Up to 8 yrs old €1.50 p.p.p.d.
-Adults €2.00 p.p.p.d.<br /><br />
-<h4>Moreover...</h4>
-FROM APRIL 17th TILL APRIL 30th, 2017
-50% OFF ALL STAYS<br />
-For bookings and information 
-<a href="mailto:info@walsertal.it">info@walsertal.it</a>
-<br /><br /><a href="mailto:info@walsertal.it" class="btn btn-small btn-border btn-border-brown">info@walsertal.it</a>
-</div>
-</div>
-							</div>
-
-<!--
+                <div class="row row-home">
+                    <article class="media">
+                        <figure class="pull-left media-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Monte_Rosa_visto_dal_Castello_di_Savoia-Gressoney_St.Jean.jpg" alt="" class="media-object">
+                        </figure>
+                        <section class="media-body">
+                            <h3 class="media-header media-header-large">
+                                                <a href="room-detail.html">{{t:'Pacchetti estivi'}}</a>
+                                            </h3>
+                            <a href="{{href:'pacchetti'}}" class="btn btn-small btn-border btn-border-brown">{{t:'Leggi tutto'}}</a>
+                        </section>
+                    </article>
+                </div>
+             
+                <!--
 								<div class="row" style="background:#a29061;color: white; margin-bottom:30px;padding: 20px 10px; text-align: center;">
 									<span data-language="it"><p>
  <strong style="font-size:32px;">Promozione estate 2016</strong><br /><a href="{{href:'prezzi'}}" class="btn btn-white">Leggi tutto</a></p></span>
@@ -259,9 +269,7 @@ For bookings and information
 									<span data-language="en"><p>
  <strong style="font-size:32px;">Summer 2016 promotion</strong> <br /><a href="{{href:'prezzi'}}" class="btn btn-white">Read more</a></p></span>
 								</div>-->
-
-								
-<!--
+                <!--
 								<div class="row row-home">
 									<article class="media object-right">
 										<figure class="pull-right media-image">
@@ -341,81 +349,77 @@ Settlement of the entire stay upon reservation.
 									</article>
 								</div>
 								-->
-
-
-
-								<div class="row row-home box-white">
-									<article class="media object-right">
-										<figure class="pull-right media-image">
-											<a href="/img/home/sbig.jpg" class="image-link"><img src="/img/home/s.jpg" alt="" class="media-object"></a>
-										</figure>
-										<section class="media-body">
-											<h3 class="media-header media-header-medium"><a href="room-detail.html">{{t:'Apreski'}}</a></h3>
-											<p class="media-content" data-language="it">Tutti i giorni dalle 16 alle 20! </p>
-											<p class="media-content" data-language="en">Everyday from 16:00pm to 20:00pm</p>
-											<a href="/img/home/sbig.jpg" class="btn image-link btn-small btn-border btn-border-brown">{{t:'Leggi tutto'}}</a>
-										</section>
-									</article>
-								</div><!-- /.row-article -->
-
-								<div class="row row-home">
-									<article class="media">
-										<figure class="pull-left media-image">
-											<img src="/img/home/1.jpg" alt="" class="media-object">
-										</figure>
-										<section class="media-body">
-											<h3 class="media-header media-header-large">
+                <div class="row row-home box-white">
+                    <article class="media object-right">
+                        <figure class="pull-right media-image">
+                            <a href="/img/home/sbig.jpg" class="image-link"><img src="/img/home/s.jpg" alt="" class="media-object"></a>
+                        </figure>
+                        <section class="media-body">
+                            <h3 class="media-header media-header-medium"><a href="room-detail.html">{{t:'Apreski'}}</a></h3>
+                            <p class="media-content" data-language="it">Tutti i giorni dalle 16 alle 20! </p>
+                            <p class="media-content" data-language="en">Everyday from 16:00pm to 20:00pm</p>
+                            <a href="/img/home/sbig.jpg" class="btn image-link btn-small btn-border btn-border-brown">{{t:'Leggi tutto'}}</a>
+                        </section>
+                    </article>
+                </div>
+                <!-- /.row-article -->
+                <div class="row row-home">
+                    <article class="media">
+                        <figure class="pull-left media-image">
+                            <img src="/img/home/1.jpg" alt="" class="media-object">
+                        </figure>
+                        <section class="media-body">
+                            <h3 class="media-header media-header-large">
 												<a href="room-detail.html">{{t:'Appartamenti'}}</a>
 											</h3>
-											<p class="media-content" data-language="it">
-												Il residence dispone di 8 appartamenti , di cui 4 monolocali e 4 bilocali, arredati con gusto e dotati di bagno, angolo cottura, forno a microonde, frigo, tv color, e stoviglie.
-Ogni appartamento possiede, inoltre, terrazzo o balcone da dove è possibile godere di una impareggiabile vista
-
-											</p>
-										<p class="media-content" data-language="en">
-The Residence has 8 apartments, 4 studio flats and 4 two-roomed flats, furnished in a good taste with bathroom, kitchenette, fridge, microwave oven, TV color, and kitchenware. Each apartment has a terrace or a balcony with a wonderful view.
-
-
-											</p>											
-											<br />
-											<a href="{{href:'appartamenti'}}" class="btn btn-small btn-border btn-border-brown">{{t:'Leggi tutto'}}</a>
-										</section>
-									</article>
-								</div><!-- /.row-article -->
-								<div class="row row-home box-white">
-									<article class="media object-right">
-										<figure class="pull-right media-image">
-											<img src="/img/home/2.jpg" alt="" class="media-object">
-										</figure>
-										<section class="media-body">
-											<h3 class="media-header media-header-medium"><a href="room-detail.html">{{t:'Servizi'}}</a></h3>
-											<p class="media-content" data-language="it">Il residence mette a disposizione degli ospiti una una sala fitness con sauna e trattamenti di massofisioterapia. I nostri clienti potranno trascorrere momenti tranquilli nell'accogliente    sala comune e rilassarsi leggendo uno dei nostri libri di montagna.
-Il residence mette a disposizione dei clienti un deposito sci riscaldato, un garage ed una grande terrazza solarium. </p>
-											<p class="media-content" data-language="en">The Residence has lounge with bookcase with mountain book for clients, Internet point, wellness centre with sauna and physiotherapy , heated ski room, garage and terrace solarium.</p>
-											<br />
-											<a href="{{href:'servizi'}}" class="btn btn-small btn-border btn-border-brown">{{t:'Leggi tutto'}}</a>
-										</section>
-									</article>
-								</div><!-- /.row-article -->
-								<div class="row row-home">
-									<article class="media">
-										<figure class="pull-left media-image">
-											<img src="/img/home/3.jpg" alt="" class="media-object">
-										</figure>
-										<section class="media-body">
-											<h3 class="media-header media-header-medium"><a href="room-detail.html">After Ski</a></h3>
-											<p class="media-content" data-language="it">
-												4 sere a settimana festa all'aperto con musica dal vivo con vini del territorio e birre artigianali. L'idale per concludere una giornata sulle piste!
-											</p>
-											<p class="media-content" data-language="en">
-												4 nights a week outdoor party with live music, local wines and craft beers. Stay with us after the last slope!
-											</p>
-										</section>
-									</article>
-								</div><!-- /.row-article -->
-							</div><!-- /.md-sidebar -->
-						</div>
-					</section><!-- /.md-home-body -->
-				</div>
-			</div>
-	
+                            <p class="media-content" data-language="it">
+                                Il residence dispone di 8 appartamenti , di cui 4 monolocali e 4 bilocali, arredati con gusto e dotati di bagno, angolo cottura, forno a microonde, frigo, tv color, e stoviglie. Ogni appartamento possiede, inoltre, terrazzo o balcone da dove è possibile godere di una impareggiabile vista
+                            </p>
+                            <p class="media-content" data-language="en">
+                                The Residence has 8 apartments, 4 studio flats and 4 two-roomed flats, furnished in a good taste with bathroom, kitchenette, fridge, microwave oven, TV color, and kitchenware. Each apartment has a terrace or a balcony with a wonderful view.
+                            </p>
+                            <br />
+                            <a href="{{href:'appartamenti'}}" class="btn btn-small btn-border btn-border-brown">{{t:'Leggi tutto'}}</a>
+                        </section>
+                    </article>
+                </div>
+                <!-- /.row-article -->
+                <div class="row row-home box-white">
+                    <article class="media object-right">
+                        <figure class="pull-right media-image">
+                            <img src="/img/home/2.jpg" alt="" class="media-object">
+                        </figure>
+                        <section class="media-body">
+                            <h3 class="media-header media-header-medium"><a href="room-detail.html">{{t:'Servizi'}}</a></h3>
+                            <p class="media-content" data-language="it">Il residence mette a disposizione degli ospiti una una sala fitness con sauna e trattamenti di massofisioterapia. I nostri clienti potranno trascorrere momenti tranquilli nell'accogliente sala comune e rilassarsi leggendo uno dei nostri libri di montagna. Il residence mette a disposizione dei clienti un deposito sci riscaldato, un garage ed una grande terrazza solarium. </p>
+                            <p class="media-content" data-language="en">The Residence has lounge with bookcase with mountain book for clients, Internet point, wellness centre with sauna and physiotherapy , heated ski room, garage and terrace solarium.</p>
+                            <br />
+                            <a href="{{href:'servizi'}}" class="btn btn-small btn-border btn-border-brown">{{t:'Leggi tutto'}}</a>
+                        </section>
+                    </article>
+                </div>
+                <!-- /.row-article -->
+                <div class="row row-home">
+                    <article class="media">
+                        <figure class="pull-left media-image">
+                            <img src="/img/home/3.jpg" alt="" class="media-object">
+                        </figure>
+                        <section class="media-body">
+                            <h3 class="media-header media-header-medium"><a href="room-detail.html">After Ski</a></h3>
+                            <p class="media-content" data-language="it">
+                                4 sere a settimana festa all'aperto con musica dal vivo con vini del territorio e birre artigianali. L'idale per concludere una giornata sulle piste!
+                            </p>
+                            <p class="media-content" data-language="en">
+                                4 nights a week outdoor party with live music, local wines and craft beers. Stay with us after the last slope!
+                            </p>
+                        </section>
+                    </article>
+                </div>
+                <!-- /.row-article -->
+            </div>
+            <!-- /.md-sidebar -->
+    </div>
+    </section>
+    <!-- /.md-home-body -->
+</div>
+</div>
