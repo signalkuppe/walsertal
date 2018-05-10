@@ -20,13 +20,13 @@ jQuery(document).ready(function($){
 	$("#arrival-date, #departure-date").datepicker({});
 
 	if($('body').hasClass('front')) {
-	$.magnificPopup.open({
+	/*$.magnificPopup.open({
   		items: {
     		src: '#pop'
   			},
   			type: 'inline'
 
-		}, 0);
+		}, 0);*/
 	}
 
 
