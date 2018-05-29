@@ -59,10 +59,11 @@ $(document).ready(function()
 
 	    $('#completa-prenotazione').submit(function (e)
 		{
+
 		var isValid = true,
 		emailReg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
-		    if($('#arrival-date').val() == "" || $('#departure-date').val()== "" || !emailReg.test($('#Field9').val())){
+		    if($('#arrival-date').val() == "" || $('#departure-date').val()== "" || !emailReg.test($('#Field9').val()) || !$('#privacy').is(':checked')){
 		        isValid = false;
 		        if($('body').data('language')=='it')
 		        	alert('Completa tutti i campi prima di inviare il modulo')
