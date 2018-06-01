@@ -25,9 +25,15 @@ $(document).ready(function()
 		    	var arrivo = $('#arrival-date').val(),
 		    		partenza = $('#departure-date').val(),
 		    		adulti= $('#adulti').val(),
-		    		bambini= $('#bambini').val();
+		    		bambini= $('#bambini').val(),
+		    		pre;
 
-				window.location = '/contatti.html?arrivo='+arrivo+'&partenza='+partenza+'&adulti='+adulti+'&bambini='+bambini+'';
+	        if($('body').data('language')=='it')
+	        	pre = ''
+	        if($('body').data('language')=='en')
+	        	pre = '/en'
+
+				window.location = pre + '/contatti.html?arrivo='+arrivo+'&partenza='+partenza+'&adulti='+adulti+'&bambini='+bambini+'';
 		    }
 
 		});
