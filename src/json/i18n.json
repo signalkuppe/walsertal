@@ -83,9 +83,13 @@
 	{
 		"en":"price for 7 days for apartment"
 	},
+	"Prezzo giornaliero":
+	{
+		"en":"price/day"
+	},
 	"Monolocale": 
 	{
-		"en": "Flat"
+		"en": "Studio"
 	},
 	"posti": 
 	{
@@ -93,7 +97,7 @@
 	},
 	"Bilocale": 
 	{
-		"en": "Two-roomed flat"
+		"en": "Two-roomed flat (2-rooms apartment)"
 	},
 	"Contatti e prenotazioni":
 	{
