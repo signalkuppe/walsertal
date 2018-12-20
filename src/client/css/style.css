@@ -33,8 +33,9 @@ body {
 }
 ul {
     list-style: none;
-    color: #333;
+    /*color: #333;*/
 } 
+.sb__guests {z-index: 1000!important;}
 blockquote, q {
     quotes: none;
 }
@@ -859,8 +860,8 @@ nav {
 .select-brown .collapse:after {background-image: url('../images/dropdown-2.png');}
 .select-black .collapse:after, 
 .select-white .collapse:after {background-image: url('../images/dropdown-1.png');}
-.collapse.input:after {background-image: url('../images/calendar.png'); width: 17px; height: 19px; top: 13px; right: 13px;}
-.collapse.collapse-brown.input:after {background-image: url('../images/calendar-white.png'); width: 17px; height: 19px; top: 13px; right: 13px;}
+/*.collapse.input:after {background-image: url('../images/calendar.png'); width: 17px; height: 19px; top: 13px; right: 13px;}*/
+/*.collapse.collapse-brown.input:after {background-image: url('../images/calendar-white.png'); width: 17px; height: 19px; top: 13px; right: 13px;}*/
 .collapse > select {
     background: rgba(0,0,0,0);
     border-style: solid;
@@ -989,6 +990,13 @@ select option.option-test:hover {background-color: #F00;}
     background-repeat: no-repeat;
     position: absolute;
     display: inline-block;
+}
+
+#sb-container .icon {
+    background-image: none;
+    background-repeat: no-repeat;
+    position: static;
+    display: inherit;
 }
 .icon-calendar  {width: 17px; height: 19px; background-position: 0 0; margin-top: 12px; margin-left: 14px;}
 .icon-previous, .icon-next {width: 10px; height: 17px; left: 31px; top: 25px;}
@@ -2342,3 +2350,22 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+
+  .room-feature-category>li {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.room-feature-category {
+    margin-top: 10px;
+}
+
+.room-feature {
+    margin-bottom: 20px;
+    margin-top: 2px;
+}
+
+.room-feature li {
+    font-weight: 400;
+    margin-bottom: 3px;
+}

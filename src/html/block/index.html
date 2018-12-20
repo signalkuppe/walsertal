@@ -67,7 +67,39 @@
 <!-- Body -->
 <div class="md-body-wrapper">
     <div class="md-home">
-        <section class="row check-availability">
+        <section class="row check-availability" style="height: auto;">
+            <script type="text/javascript">
+            var l = document.body.getAttribute('data-language').toUpperCase();
+                (function (i, s, o, g, r, a, m) {
+                    i['SBSyncroBoxParam'] = r; i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', 'https://cdn.simplebooking.it/search-box-script.axd?IDA=5050','SBSyncroBox');
+                
+                SBSyncroBox({
+                    CodLang: l,
+                    Styles: {
+                        CustomColor: "#fff",   //primary color ex. #CDEFDD
+                        CustomBGColor: "#a29061",   //background color
+                        CustomLabelColor: "#fff",   //labels color
+                        CustomButtonBGColor: "rgb(114,19,70)",   //popovers text color
+                        CustomButtonHoverBGColor: "#000",
+                        CustomLabelColor: '#fffaef',
+                        CustomLinkColor:'#fffaef',
+                        CustomIconColor:'#fff',
+                        CustomAccentColor: '#fff',
+                        CustomFieldBackgroundColor: '#32312B',
+                        CustomWidgetBGColor:'#32312B',
+                        CustomCalendarBackgroundColor: '#32312B',
+                        CustomAccentColor: '#fffaef',
+                        CustomBoxShadowColorHover: '#fffaef'
+                    }
+                });
+                </script>
+                <div id="sb-container"></div> 
+        </section>
+        <!--section class="row check-availability">
             <div class="container clearfix">
                 <div class="grid_3">
                     <h2 class="title-checkroom">{{t:'Contattaci'}}</h2>
@@ -130,13 +162,10 @@
                                 <input type="hidden" id="idstamp" name="idstamp" value="oLDPOIZoLn9Q58knDvmqa3x2VeMVWQTbklm78VUNGcY=" />
                             </form>
                         </div>
-                        <!-- /.box-booking -->
                     </section>
-                    <!-- /.md-booking -->
                 </div>
             </div>
-            <!-- /.container -->
-        </section>
+        </section-->
         <section class="row md-home-body">
             <div class="container clearfix">
                 <aside class="grid_3 md-sidebar">

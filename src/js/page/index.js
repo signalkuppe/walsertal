@@ -13,6 +13,7 @@ page
 	  postBuild : function ($)
 	  {	
 	  	$('body').addClass('front');
+		
 
 	  }
 });
