@@ -2369,3 +2369,7 @@ img.mfp-img {
     font-weight: 400;
     margin-bottom: 3px;
 }
+
+div.appartamento {
+max-width: 580px;
+margin: 0 auto;}
