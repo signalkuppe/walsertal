@@ -1,0 +1,13 @@
+<section class="md-accomodation" style="margin-top: 90px;">
+<div class="row clearfix">
+{{for appartamenti}}
+<div class="grid_4" style="margin-bottom: 20px;">
+<a href="{{:~href('appartamento', #data)}}">
+<h3 class="h4" style="font-size:16px;" data-language="it">{{>title.it}}</h3>
+<h3 class="h4" style="font-size:16px;" data-language="en">{{>title.en}}</h3>
+<img src="/img/appartamenti/{{>slug}}.jpg" />
+</a>
+</div>
+{{/for}}
+</div>
+</section>

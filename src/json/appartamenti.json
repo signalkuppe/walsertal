@@ -1,0 +1,51 @@
+[
+	{
+		"title": {
+			"it": "Monolocale per 2",
+			"en": "Studio for 2"
+		},
+		"slug": "monolocale-per-2"
+	},
+	{
+		"title": {
+			"it": "Monolocale superior per 3",
+			"en": "Studio superior for 3"
+		},
+		"slug": "monolocale-superior-per-3"
+	},
+	{
+		"title": {
+			"it": "Monolocale superior con soppalco per 4",
+			"en": "Studio superior with loft for 4"
+		},
+		"slug": "monolocale-superior-per-4"
+	},
+	{
+		"title": {
+			"it": "Bilocale per 4 persone",
+			"en": "Two room apartment for 4"
+		},
+		"slug": "bilocale-per-4"
+	},
+	{
+		"title": {
+			"it": "Bilocale per 4/5 persone",
+			"en": "Two room apartment for 4/5 persons"
+		},
+		"slug": "bilocale-per-4-5"
+	},
+	{
+		"title": {
+			"it": "Bilocale superior per 4/5 persone",
+			"en": "Superior two room apartment"
+		},
+		"slug": "bilocale-superior-per-4-5"
+	},
+	{
+		"title": {
+			"it": "Bilocale superior soppalcato per 6 persone",
+			"en": "Superior two room apartmen for 6"
+		},
+		"slug": "bilocale-superior-soppalcato-per-6"
+	}
+]
