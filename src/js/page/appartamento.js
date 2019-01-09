@@ -14,7 +14,7 @@ appartamenti.forEach(function(a){
 	      href: href,
 		  layout: 'interna',
 		  blocks: { 
-		  			'content': a.slug
+		  			'content': [a.slug, 'bottone-appartamento']
 		          },
 		  title: info.title+' | '+a.title,
 		  description: a.title,
